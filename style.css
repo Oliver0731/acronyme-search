@@ -1,1 +1,48 @@
-/* CSS Style Sheet */
+html {
+  background-color: rgb(223, 255, 255);
+}
+
+body {
+  max-width: 600px;
+  margin: auto;
+  padding: 10px 20px;
+  margin-top: 50px;
+  border-style: solid;
+  border-radius: 50px;
+  background-color: rgb(118, 161, 199);
+}
+
+p {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h1 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+button {
+  background-color: rgb(223, 255, 255);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  height: 25px;
+}
+button:hover {
+  background-color: rgb(118, 161, 199);
+}
+
+#search {
+  background-color: rgb(255, 255, 255);
+  height: 25px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+
+  border-style: solid;
+  border-color: black;
+}
+hr {
+  background-color: black;
+  border-style: solid;
+}
